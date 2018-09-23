@@ -16,3 +16,5 @@ process.argv
 node app.js add --title="Jimmy" --body="This is my nick name" // Benefit of yargs , key-value pairs
 
 
+command('commandName', 'Description', optionsObject)
+.help()     // provide the --help flag as ->   node app.js --help  OR node app.js add --help
