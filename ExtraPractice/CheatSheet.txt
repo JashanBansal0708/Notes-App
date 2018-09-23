@@ -1,0 +1,18 @@
+window ------------- global
+document ----------- process      process.exit(0)
+dom manipulation ---------- file system manipulation
+ 
+
+
+require 1. core module
+        2. Files (relative path)
+        3. Third party modules in node_modules
+
+
+
+process.argv[2]  // Argument vector to pass the command line Argument
+process.argv
+
+node app.js add --title="Jimmy" --body="This is my nick name" // Benefit of yargs , key-value pairs
+
+
