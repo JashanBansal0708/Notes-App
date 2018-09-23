@@ -1,3 +1,7 @@
+// JSON is just a string representation of javascript objects. Every property is in doule quotes. 
+// Very useful because string is considered as a simple text, which we store in files etc.
+
+
 var obj = {
     name : 'Jashan'
 }

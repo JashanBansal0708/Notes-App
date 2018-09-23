@@ -1,0 +1,29 @@
+<-------    Best tools for debugging rather console.log() from node v8+ ------------>
+
+
+// if we are on a server we don't have access to the chrome dev tools, at that time use command line tools.
+
+
+node inspect app.js    ->   debugging via the command line  
+
+n          ->    move to the next line for debugging
+
+list(10)   ->    list 10 lines from the current line of debugging
+
+c          ->    continous to the end of file , if not debugger is used
+
+debugger   ->    used in between the file to create break points. Use c to move to break point.
+
+repl       ->    used at a particular point of debugging for testing values
+Example in debugging.js at start of line 7
+person, person.age+ 100 , person.age = 100;
+
+
+/////////  Important  ///////////////
+
+node --inspect-brk      -> flag allow us to debug via the chrome developer tools 
+open chrome://inspect
+use ESC key to open hide console in sources tab
+Very useful, give us a sneak peek of data
+
+Also use nodemon 
